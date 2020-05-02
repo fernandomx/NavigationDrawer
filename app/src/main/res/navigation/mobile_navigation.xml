@@ -5,6 +5,13 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.example.navigationdrawer.ui.contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.navigationdrawer.ui.home.HomeFragment"
